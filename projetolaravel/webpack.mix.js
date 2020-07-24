@@ -11,7 +11,5 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.
-    scripts('node_modules/jquery/dist/jquery.js','public/js/jquery.js')
-.scripts('node_modules/bootstrap/dist/js/bootstrap.bundle.js','public/js/bootstrap.js')
-.sass('resources/sass/app.scss', 'public/css/app.css');
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css');
